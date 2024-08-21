@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Preparation - Container Receipt</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .completed {
+            color: green;
+            font-weight: bold;
+        }
+
+        .incomplete {
+            color: red;
+            font-weight: bold;
+        }
+
+        .progress-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <h2 class="mb-4">Document Preparation for Container Receipt</h2>
+
+        <!-- مقدمة عن أهمية تحضير الوثائق -->
+        <div class="alert alert-info">
+            <h4>Importance of Document Preparation</h4>
+            <ul>
+                <li>Ensures smooth customs clearance.</li>
+                <li>Avoids delays and additional costs.</li>
+                <li>Guarantees accurate verification of goods.</li>
+            </ul>
+            <p>Failure to prepare the required documents can lead to:</p>
+            <ul>
+                <li>Delays in customs processing.</li>
+                <li>Additional storage fees at the port.</li>
+                <li>Potential fines or penalties.</li>
+            </ul>
+        </div>
+
+        <!-- قائمة الوثائق -->
+        <div class="mb-4">
+            <h4>Required Documents</h4>
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Bill of Lading (Original)
+                    <button class="btn btn-outline-success" id="bolBtn">
+                        <i class="bi bi-check-lg"></i> Mark as Completed
+                    </button>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Commercial Invoice
+                    <button class="btn btn-outline-success" id="invoiceBtn">
+                        <i class="bi bi-check-lg"></i> Mark as Completed
+                    </button>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Packing List
+                    <button class="btn btn-outline-success" id="packingListBtn">
+                        <i class="bi bi-check-lg"></i> Mark as Completed
+                    </button>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Certificate of Origin
+                    <button class="btn btn-outline-success" id="certificateBtn">
+                        <i class="bi bi-check-lg"></i> Mark as Completed
+                    </button>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Power of Attorney
+                    <button class="btn btn
